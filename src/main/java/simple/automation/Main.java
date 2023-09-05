@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Example1 {
+public class Main {
 
     public static void main(String[] args) {
         List<String> list = Arrays.asList("один", "два", "три");
@@ -20,7 +20,7 @@ public class Example1 {
         list.forEach(str -> System.out.println(digestMap.get(str)));
         list2 = list.stream().filter(el -> el.length() == 3).collect(Collectors.toList()); // новый список с элементами длиной 3 символа
         list2.forEach(str -> System.out.println(str));
-    }
+}
 
     private <T> String objectToString(T object){
         return String.valueOf(object);
