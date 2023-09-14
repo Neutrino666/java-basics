@@ -1,4 +1,4 @@
-package utils.srvices;
+package rest.utils.srvices;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;

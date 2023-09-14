@@ -1,10 +1,10 @@
-package utils;
+package rest.utils;
 
 import io.restassured.http.ContentType;
 import io.restassured.http.Cookies;
-import pojos.UserLogin;
-import utils.srvices.OrderService;
-import utils.srvices.UserService;
+import rest.pojos.UserLogin;
+import rest.utils.srvices.OrderService;
+import rest.utils.srvices.UserService;
 
 import static io.restassured.RestAssured.given;
 

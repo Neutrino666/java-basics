@@ -1,10 +1,12 @@
+package rest;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import pojos.UserRequest;
-import pojos.CreateUserResponse;
-import pojos.UserPojoFull;
-import utils.RestWrapper;
-import utils.UserGenerator;
+import rest.pojos.UserRequest;
+import rest.pojos.CreateUserResponse;
+import rest.pojos.UserPojoFull;
+import rest.utils.RestWrapper;
+import rest.utils.UserGenerator;
 
 
 import static org.assertj.core.api.Assertions.assertThat;

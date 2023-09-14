@@ -1,11 +1,11 @@
-package steps;
+package rest.steps;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import pojos.UserRequest;
-import pojos.CreateUserResponse;
-import pojos.UserPojoFull;
+import rest.pojos.UserRequest;
+import rest.pojos.CreateUserResponse;
+import rest.pojos.UserPojoFull;
 
 import java.util.List;
 

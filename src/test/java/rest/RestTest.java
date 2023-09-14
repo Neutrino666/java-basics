@@ -1,11 +1,13 @@
+package rest;
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.Test;
-import pojos.UserRequest;
-import pojos.CreateUserResponse;
-import pojos.UserPojoFull;
-import steps.UsersSteps;
+import rest.pojos.UserRequest;
+import rest.pojos.CreateUserResponse;
+import rest.pojos.UserPojoFull;
+import rest.steps.UsersSteps;
 
 import java.util.List;
 
